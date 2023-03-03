@@ -1,0 +1,11 @@
+h1 {
+    color: red;
+}
+
+h1.page1 {
+    color: blue;
+}
+
+body ul li {
+    color: green;
+}
