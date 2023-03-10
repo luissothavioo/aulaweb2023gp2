@@ -1,5 +1,33 @@
 h1 {
     color: red;
+    border: 0,5rem dotted red;
+}
+h2, h3, h4, h5, h6{
+    display: none;
+}
+body ul li{
+    color: brown;
+}
+p{
+    text-decoration: underline #ccc double 0.1rem;
+    text-indent: 1rem;
+}
+p.maiusculo{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1rem;
+    line-height: 2rem;
+    word-spacing: 2rem;
+    color: white;
+    font: italic small-caps bold 2rem monospace;
+    text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem blue, 0 0 2rem darkblue;
+}
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: rgb(62, 110, 62);
+}
+a:hover{
+    color: darkblue;
 }
 
 h1.page1 {
