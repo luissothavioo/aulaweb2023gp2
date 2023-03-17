@@ -1,49 +1,23 @@
 h1 {
-<<<<<<< HEAD
     color: rgb(66, 166, 243);
     text-align: center;
 }
-
-=======
-    color: rgb(52, 131, 196);
-    text-align: center;
-}
->>>>>>> 4224a8eca96a0ee0b21d78437ec6887251fa51df
 h2,h3,h4,h5,h6 {
     display: none;
 }
 body ul li {
-<<<<<<< HEAD
     color: rgb(0, 0, 0);
 }
-
-=======
-    color: brown;
-}
-p {
-    text-decoration: underline rgb(124, 6, 139) solid 0.2rem;
-    text-indent: 1rem;
-}
->>>>>>> 4224a8eca96a0ee0b21d78437ec6887251fa51df
 p.maiusculo {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.3rem;
     line-height: 0.5rem;
-<<<<<<< HEAD
     word-spacing: 0.01rem;
     color: rgb(33, 66, 212);
     font: small-caps bold 1.5rem monospace;
     text-shadow: 0.2rem 0.2rem 0.3rem rgb(14, 58, 177), 0 0 1rem rgb(22, 11, 119);
 }
-
-=======
-    word-spacing: 0.5rem;
-    color: rgb(255, 255, 255);
-    font: small-caps bold 1.5rem monospace;
-    text-shadow: 0.2rem 0.2rem 0.3rem rgb(44, 72, 148), 0 0 1rem rgb(89, 21, 134);
-}
->>>>>>> 4224a8eca96a0ee0b21d78437ec6887251fa51df
 p.minusculo {
     text-transform: lowercase;
     text-align: center;
@@ -52,48 +26,30 @@ p.minusculo {
     word-spacing: 0.01rem;
     color: rgb(0, 0, 0);
     font: small-caps bold 1rem monospace;
-<<<<<<< HEAD
     text-decoration: underline rgb(0, 0, 0) solid 0.2rem;
     text-indent: 1rem;
 }
-
-a:link,a:visited,a:active {
-    text-decoration: none;
-    color: rgb(44, 72, 148);
-}
-
-=======
-}
-
 a:link, a:visited, a:active {
     text-decoration: none;
     color: rgb(44, 72, 148);
 }
->>>>>>> 4224a8eca96a0ee0b21d78437ec6887251fa51df
 a:hover {
     color: rgb(124, 21, 184);
 }
-
 footer {
     clear: both;
     background-color: rgb(44, 72, 148);
     height: 1.5rem;
 }
-
-<<<<<<< HEAD
-#grid {
+#grid{
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 0.5rem;
     text-align: center;
 }
-
-#center {
+#center{
     text-align: center;
 }
-
-=======
->>>>>>> 4224a8eca96a0ee0b21d78437ec6887251fa51df
 div {
     position: fixed;
     right: 0;
@@ -106,39 +62,23 @@ div {
     padding: 0.2rem;
     font-size: 2rem;
 }
-
-<<<<<<< HEAD
-#voltar {
+#voltar{
     color: rgb(255, 255, 255);
     font: bold 1.3rem monospace;
     text-transform: uppercase;
 }
-
-header {
-    clear: both;
+header{
     background-color: rgb(44, 72, 148);
     height: 3rem;
 }
+img {
+    width: 20rem;
+}
 
-h1#page1 {
-    color: rgb(2, 184, 41);
+#estilo {
+    color: rgb(5, 245, 57);
     border: 0.3rem dashed rgb(4, 212, 4);
 }
-
-img {
-    width: 20rem;
-}
-
-=======
-
-h1#page1 {
-    color: green;
-    border: 0.3rem dashed green;
-}
-img {
-    width: 20rem;
-}
->>>>>>> 4224a8eca96a0ee0b21d78437ec6887251fa51df
 ul {
     list-style-type: square;
 }
@@ -148,66 +88,36 @@ h1.page2 {
     border: 1rem groove blue;
     border-radius: 0.7rem;
 }
-<<<<<<< HEAD
-
-ol {
-    list-style-type: upper-roman;
-}
-
-section img {
-    float: inline-start;
-}
-
-img#dif {
-    width: 30rem;
-    border: rgb(4, 212, 4) 0.3rem solid;
-}
-
-article {
-=======
 ol {
     list-style-type:upper-roman;
 }
 section img {
-    float: left;
+    text-align: center;
+}
+img#dif{
+    width: 30rem;
+    border: rgb(4, 212, 4) 0.3rem solid;
 }
 
 article{
->>>>>>> 4224a8eca96a0ee0b21d78437ec6887251fa51df
     text-transform: uppercase;
     text-align: center;
     font: small-caps bold 1.5rem monospace;
     color: rgb(0, 0, 0);
 }
-<<<<<<< HEAD
-
-main.grid {
+main.grid{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 1rem;
 }
 
-main.flexbox {
-=======
-main.grid{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 2rem;
-}
-
 main.flexbox{
->>>>>>> 4224a8eca96a0ee0b21d78437ec6887251fa51df
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
-<<<<<<< HEAD
-
-main.flexbox article {
-=======
 main.flexbox article{
->>>>>>> 4224a8eca96a0ee0b21d78437ec6887251fa51df
     background-color: rgb(165, 23, 23);
     margin: 1rem;
     padding: 2rem;
