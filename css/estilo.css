@@ -1,11 +1,144 @@
 h1 {
-    color: red;
+    color: rgb(66, 166, 243);
+    text-align: center;
 }
 
-h1.page1 {
-    color: blue;
+h2,h3,h4,h5,h6 {
+    display: none;
 }
 
 body ul li {
-    color: green;
+    color: rgb(0, 0, 0);
+}
+
+p.maiusculo {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    line-height: 0.5rem;
+    word-spacing: 0.01rem;
+    color: rgb(33, 66, 212);
+    font: small-caps bold 1.5rem monospace;
+    text-shadow: 0.2rem 0.2rem 0.3rem rgb(14, 58, 177), 0 0 1rem rgb(22, 11, 119);
+}
+
+p.minusculo {
+    text-transform: lowercase;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    line-height: 0.01rem;
+    word-spacing: 0.01rem;
+    color: rgb(0, 0, 0);
+    font: small-caps bold 1rem monospace;
+    text-decoration: underline rgb(0, 0, 0) solid 0.2rem;
+    text-indent: 1rem;
+}
+
+a:link,a:visited,a:active {
+    text-decoration: none;
+    color: rgb(44, 72, 148);
+}
+
+a:hover {
+    color: rgb(124, 21, 184);
+}
+
+footer {
+    clear: both;
+    background-color: rgb(44, 72, 148);
+    height: 1.5rem;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0.5rem;
+    text-align: center;
+}
+
+#center {
+    text-align: center;
+}
+
+div {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 2rem;
+    background-color: rgb(47, 194, 47);
+    color: white;
+    border: 0.2rem solid rgb(2, 54, 2);
+    padding: 0.2rem;
+    font-size: 2rem;
+}
+
+#voltar {
+    color: rgb(255, 255, 255);
+    font: bold 1.3rem monospace;
+    text-transform: uppercase;
+}
+
+header {
+    clear: both;
+    background-color: rgb(44, 72, 148);
+    height: 3rem;
+}
+
+h1#page1 {
+    color: rgb(2, 184, 41);
+    border: 0.3rem dashed rgb(4, 212, 4);
+}
+
+img {
+    width: 20rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+h1.page2 {
+    color: blue;
+    border: 1rem groove blue;
+    border-radius: 0.7rem;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+section img {
+    float: inline-start;
+}
+
+img#dif {
+    width: 30rem;
+    border: rgb(4, 212, 4) 0.3rem solid;
+}
+
+article {
+    text-transform: uppercase;
+    text-align: center;
+    font: small-caps bold 1.5rem monospace;
+    color: rgb(0, 0, 0);
+}
+
+main.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+
+main.flexbox {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main.flexbox article {
+    background-color: rgb(165, 23, 23);
+    margin: 1rem;
+    padding: 2rem;
 }
