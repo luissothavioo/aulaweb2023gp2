@@ -31,17 +31,13 @@ p.minusculo {
     color: rgb(0, 0, 0);
     font: small-caps bold 1rem monospace;
 }
-a{
-    text-align: center;
-}
 
 a:link, a:visited, a:active {
     text-decoration: none;
     color: rgb(44, 72, 148);
 }
-
 a:hover {
-    color: darkorange;
+    color: rgb(124, 21, 184);
 }
 
 footer {
@@ -56,22 +52,21 @@ div {
     bottom: 0;
     display: inline;
     z-index: 2rem;
-    background-color: lightgreen;
+    background-color: rgb(47, 194, 47);
     color: white;
-    border: 0.2rem solid darkgreen;
+    border: 0.2rem solid rgb(2, 54, 2);
     padding: 0.2rem;
     font-size: 2rem;
 }
+
 
 h1#page1 {
     color: green;
     border: 0.3rem dashed green;
 }
-
 img {
     width: 20rem;
 }
-
 ul {
     list-style-type: square;
 }
@@ -81,19 +76,23 @@ h1.page2 {
     border: 1rem groove blue;
     border-radius: 0.7rem;
 }
-
 ol {
     list-style-type:upper-roman;
 }
-
 section img {
     float: left;
 }
 
+article{
+    text-transform: uppercase;
+    text-align: center;
+    font: small-caps bold 1.5rem monospace;
+    color: rgb(0, 0, 0);
+}
 main.grid{
     display: grid;
     grid-template-columns: auto auto auto;
-    gao: 2rem;
+    gap: 2rem;
 }
 
 main.flexbox{
@@ -103,7 +102,7 @@ main.flexbox{
     align-items: center;
 }
 main.flexbox article{
-    background-color: lightcoral;
+    background-color: rgb(165, 23, 23);
     margin: 1rem;
     padding: 2rem;
 }
