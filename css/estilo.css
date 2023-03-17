@@ -1,39 +1,109 @@
 h1 {
-    color: red;
-    border: 0,5rem dotted red;
+    color: rgb(52, 131, 196);
+    text-align: center;
 }
-h2, h3, h4, h5, h6{
+h2,h3,h4,h5,h6 {
     display: none;
 }
-body ul li{
+body ul li {
     color: brown;
 }
-p{
-    text-decoration: underline #ccc double 0.1rem;
+p {
+    text-decoration: underline rgb(124, 6, 139) solid 0.2rem;
     text-indent: 1rem;
 }
-p.maiusculo{
+p.maiusculo {
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 1rem;
-    line-height: 2rem;
-    word-spacing: 2rem;
-    color: white;
-    font: italic small-caps bold 2rem monospace;
-    text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem blue, 0 0 2rem darkblue;
+    letter-spacing: 0.3rem;
+    line-height: 0.5rem;
+    word-spacing: 0.5rem;
+    color: rgb(255, 255, 255);
+    font: small-caps bold 1.5rem monospace;
+    text-shadow: 0.2rem 0.2rem 0.3rem rgb(44, 72, 148), 0 0 1rem rgb(89, 21, 134);
 }
-a:link, a:visited, a:active{
+p.minusculo {
+    text-transform: lowercase;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    line-height: 0.01rem;
+    word-spacing: 0.01rem;
+    color: rgb(0, 0, 0);
+    font: small-caps bold 1rem monospace;
+}
+a{
+    text-align: center;
+}
+
+a:link, a:visited, a:active {
     text-decoration: none;
-    color: rgb(62, 110, 62);
-}
-a:hover{
-    color: darkblue;
+    color: rgb(44, 72, 148);
 }
 
-h1.page1 {
-    color: blue;
+a:hover {
+    color: darkorange;
 }
 
-body ul li {
+footer {
+    clear: both;
+    background-color: rgb(44, 72, 148);
+    height: 1.5rem;
+}
+
+div {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 2rem;
+    background-color: lightgreen;
+    color: white;
+    border: 0.2rem solid darkgreen;
+    padding: 0.2rem;
+    font-size: 2rem;
+}
+
+h1#page1 {
     color: green;
+    border: 0.3rem dashed green;
+}
+
+img {
+    width: 20rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+h1.page2 {
+    color: blue;
+    border: 1rem groove blue;
+    border-radius: 0.7rem;
+}
+
+ol {
+    list-style-type:upper-roman;
+}
+
+section img {
+    float: left;
+}
+
+main.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gao: 2rem;
+}
+
+main.flexbox{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+main.flexbox article{
+    background-color: lightcoral;
+    margin: 1rem;
+    padding: 2rem;
 }
